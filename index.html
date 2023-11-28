@@ -1,282 +1,501 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>KidsCon</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!--GOOGLE FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-    <!--ICONSCOUT CDN-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+  <title>Kidscon</title>
 
-    <!--GOOGLE FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
 
 </head>
 
 <body>
-    <nav>
-        <div class="container nav_container">
-            <a href="index.html">
-                <h4>KidsCon</h4>
-            </a>
-            <ul class="nav_menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="team.html">Our Team</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <a href="gtinvo.html" class="btn btn-primary">Get Involved</a>
+
+  <div class="hero_area">
+    <!-- nav section strats -->
+    <header class="header_section long_section px-0">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="index.html">
+          <span>
+            Kidscon
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
+            <ul class="navbar-nav  ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="team.html"> Our Team</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Get Involved</a>
+              </li>
             </ul>
-            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
-            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
-        </div>
-    </nav>
-
-    <!--=============END OF NAVBAR-->
-
-    <header>
-        <div class="container header_container">
-            <div class="header_left">
-                <h1>Empowering Children for a Brighter Future</h1>
-                <p>We are a non-profit dedicated to helping underprivileged, orphaned, and homeless children through
-                    education and life-skills programs.</p>
-                <a href="donate.html" class="btn btn-primary">Join Us</a>
-            </div>
-            <div class="header_right">
-                <div class="header_right-image">
-                    <img src="./images/kidscon hero 2.svg">
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!--=====================END OF HEADER====================-->
-
-
-    <section class="categories">
-        <div class="container categories_container">
-            <div class="categories_left">
-                <h1>Why Kidscon is essential</h1>
-
-                <img src="./images/double-line.svg" alt="">
-            </div>
-            <div class="arrow">
-                <img src="./images/green-curve-shape-easy.svg" alt="arrow icon">
-            </div>
-
-            <p>Kidscon believes in empowering the underprivileged children of our society by providing scholarships
-                and essential educational items. Organizations like ours help these children rise above their
-                circumstances and give them a fighting chance.
-            </p>
-        </div>
-
-
-    </section>
-
-    <!--===================END OF WHY ESSENTIAL?========================-->
-
-
-    <!--=================START OF OFFER SECTIO (3 IMAGE BOXES=====================-->
-
-    <section class="offer_container">
-
-        <div class="offer">
-            <div class="offer_box">
-                <div class="avatar">
-                    <img src="./images/swirl.svg" alt="testimonials">
-                </div>
-                <h2>We're focused <span>on aiding</span> the marginalized.</h2>
-
-                <p>Our priority is to uplift children in need through quality education.</p>
-            </div>
-            <div class="offer_box">
-                <div class="avatar">
-                    <img src="./images/globe.svg" alt="testimonials">
-                </div>
-
-                <h2>We believe <span>in potential</span> of every child.</h2>
-
-                <p>No child should be deprived of their fundamental right to learn.</p>
-
-            </div>
-
-            <div class="offer_box">
-                <div class="avatar">
-                    <img src="./images/arrow.svg" alt="testimonials">
-                </div>
-                <h2>Together, we can <span>ignite</span> a change.</h2>
-
-                <p>Join us in creating a brighter future for these children.</p>
-            </div>
-        </div>
-    </section>
-    <!--=================END OF TESTIMONIALS=====================-->
-
-
-    <section class="categories">
-        <div class="container categories_container">
-            <div class="categories_left">
-                <h1>Why trust Kidscon?</h1>
-
-                <img src="./images/double-line.svg" alt="">
-            </div>
-            <div class="fa_star">
-                <img src="./images/four-angle-star.svg" alt="arrow icon">
-            </div>
-            <p>Kidscon has been tirelessly working to ensure a safe, educational environment for underprivileged
-                children. Our efforts include not only providing academic support, but also organizing special events
-                for children.
-            </p>
-        </div>
-
-    </section>
-
-    <!--===================END OF WHY TRUST?========================-->
-
-    <section id="puz">
-        <div class="mosaic">
-            <img src="./images/kidscon hmpg pix.png" alt="">
-            <article>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </article>
-        </div>
-    </section>
-
-    <section class="categories">
-        <div class="container categories_container">
-            <div class="categories_left">
-                <h1>Our Journey Stories</h1>
-
-                <img src="./images/double-line.svg" alt="">
-            </div>
-            <div class="star">
-                <img src="./images/star.svg" alt="star">
-            </div>
-
-            <p>From organizing kids hangout and funtime events with the governor, to providing a platform for learning,
-                get a closer look
-                at our stories.
-            </p>
-        </div>
-
-    </section>
-
-    <!--===================END OF WHY OUR JOURNEY SO FAR?========================-->
-
-    <section class="events">
-
-        <div class="container events_container">
-            <article class="event">
-                <div class="event_image">
-                    <img src="./images/mt_govnr.jpg">
-                </div>
-                <div class="event_info">
-                    <h4>Meeting the Governor</h4>
-                    <p>Arranged an interactive session with the governor.</p>
-
-                </div>
-            </article>
-            <article class="event">
-                <div class="event_image">
-                    <img src="./images/books.jpg">
-                </div>
-                <div class="event_info">
-                    <h4>Distributing Books </h4>
-                    <p>Over 1000 books distributed for learning enhancement.</p>
-
-                </div>
-            </article>
-            <article class="event">
-                <div class="event_image">
-                    <img src="./images/Scholar.jpg">
-                </div>
-                <div class="event_info">
-                    <h4>Scholarships</h4>
-                    <p>Provided over 100 academic scholarships.</p>
-
-                </div>
-            </article>
-        </div>
-    </section>
-    <!--===================END OF events========================-->
-    <!--===================CONTACT US========================-->
-    <section class="contact">
-        <div class="container contact_container">
-
-            <img class="icon" src="./images/yellow-star.svg" alt=" smile">
-
-            <form action="https://formspree.io/f/xrgdeeaw" method="POST" class="contact_form">
-                <h1>Get In Touch</h1>
-                <div class="form_name">
-                    <input type="text" name="First Name" placeholder="First Name" required>
-                    <input type="text" name="Last Name" placeholder="Last Name" required>
-                </div>
-                <input type="email" name="Email Address" placeholder="Emil Address" required>
-                <textarea name="Message" rows="7" placeholder="Message" required></textarea>
-                <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+          <!--<div class="quote_btn-container">
+            <a href="">
+              <span>
+                Login
+              </span>
+              <i class="fa fa-user" aria-hidden="true"></i>
+            </a>
+            <form class="form-inline">
+              <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
             </form>
+          </div>-->
         </div>
-    </section>
+      </nav>
+    </header>
+    <!-- end nav section -->
+    <!-- hero section -->
+    <section class="slider_section long_section">
+      <div id="customCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="detail-box">
+                    <h1>
 
+                      Empowering Children for a Brighter Future
+                    </h1>
+                    <p>
+                      We are a non-profit dedicated to helping underprivileged, orphaned, and homeless children through
+                      education and life-skills programs.
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn1">
+                        Get Involved
+                      </a>
 
-    <footer>
-        <div class="container footer_container">
-
-            <div class="footer_2">
-                <h4>Go To</h4>
-                <ul id="footer-ul">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="team.html">Our Team</a></li>
-                    <a href="gtinvo.html" class="btn btn-primary">Get Involved</a>
-                </ul>
-            </div>
-            <div class="footer_3">
-                <h4>Contact Us</h4>
-                <div class="numb">
-                    <p>+234-803-422-5541 <br> </p>
-                    <p>hello@kidscon.com</p>
+                    </div>
+                  </div>
                 </div>
+                <div class="col-md-7">
+                  <div class="img-box">
+                    <img src="images/kidscon-hero.svg" alt="">
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="footer_1">
-                <a href="index.html" class="footer_logo">
-                    <h4>Kidscon</h4>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- end hero section -->
+  </div>
+  <!-- about section -->
+
+  <section class="about_section layout_padding long_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <h1> Why Kidscon <br>is essential</h1>
+            <img src="images/double-line.svg" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+
+            <p>
+              Kidscon believes in empowering the underprivileged children of our society by providing scholarships
+              and essential educational items. Organizations like ours help these children rise above their
+              circumstances and give them a fighting chance.
+            </p>
+            <img src="./images/green-curve-shape-easy.svg" alt="arrow icon">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+  <!-- furniture section -->
+
+  <section class="furniture_section layout_padding">
+    <div class="container">
+      <!--<div class="heading_container">
+        <h2>
+          NOWhy Kidscon is essential
+        </h2>
+        <p>
+          Kidscon believes in empowering the underprivileged children of our society by providing scholarships
+          and essential educational items. Organizations like ours help these children rise above their
+          circumstances and give them a fighting chance.
+        </p>
+      </div>-->
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/swirl.svg" alt="swirl-icon-svg">
+            </div>
+            <div class="detail-box">
+              <h4>
+                We're focused <span>on aiding</span> the marginalized.
+              </h4>
+              <div class="price_box">
+                <h6 class="price_heading">
+                  Our priority is to uplift children in need through quality education.
+                </h6>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/arrow.svg" alt="arrow-icon-svg">
+            </div>
+            <div class="detail-box">
+              <h4>
+                We believe <span>in potential</span> of every child.
+              </h4>
+              <div class="price_box">
+                <h6 class="price_heading">
+                  No child should be deprived of their fundamental right to learn.
+                </h6>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/globe.svg" alt="globe-icon-svg">
+            </div>
+            <div class="detail-box">
+              <h4>
+                Together, we can <span>ignite</span> a change.
+              </h4>
+              <div class="price_box">
+                <h6 class="price_heading">
+                  Join us in creating a brighter future for these children.
+                </h6>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- end furniture section -->
+  <!-- start why trus section  -->
+
+  <section class="about_section layout_padding long_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <h1> Why trust Kidscon?</h1>
+            <img src="images/double-line.svg" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+
+            <p>
+              Kidscon has been tirelessly working to ensure a safe, educational environment for underprivileged
+              children. Our efforts include not only providing academic support, but also organizing special events for
+              children.
+            </p>
+            <img src="./images/four-angle-star.svg" alt="arrow icon">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end why trust section  -->
+
+  <!-- start mosaic section  -->
+  <section id="puz">
+    <div class="mosaic">
+      <img src="./images/kidscon hmpg pix.jpg" alt="">
+      <article>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </article>
+    </div>
+  </section>
+  <!-- end mosaic section  -->
+
+  <!-- start our journey section  -->
+
+  <section class="about_section layout_padding long_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <h1> Our Journey Stories</h1>
+            <img src="images/double-line.svg" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+
+            <p>
+              From organizing kids hangout and funtime events with the governor, to providing a platform for learning,
+              get a closer look at our stories.
+            </p>
+            <img src="./images/four-angle-star.svg" alt="star icon">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end our journey section  -->
+
+
+  <!-- blog section -->
+
+  <section class="blog_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/mt_govnr.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Meeting the Governor
+              </h5>
+              <p>
+                Arranged an interactive session with the governor.
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/books.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Distributing Books
+              </h5>
+              <p>
+                Over 1000 books distributed for learning enhancement.
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mx-auto">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/Scholar.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Scholarships
+              </h5>
+              <p>
+                Provided over 100 academic scholarships.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end blog section -->
+
+
+
+  <!-- contact section -->
+  <section class="contact_section  long_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form_container">
+            <div class="heading_container">
+              <h2>
+                Get In Touch
+              </h2>
+            </div>
+            <form action="">
+              <div>
+                <input type="text" placeholder="Your Name" />
+              </div>
+              <div>
+                <input type="text" placeholder="Phone Number" />
+              </div>
+              <div>
+                <input type="email" placeholder="Email" />
+              </div>
+              <div>
+                <input type="text" class="message-box" placeholder="Message" />
+              </div>
+              <div class="btn_box">
+                <button>
+                  SEND
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="map_container">
+            <div class="map">
+              <div id="googleMap"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact section -->
+
+  <!-- info section -->
+  <section class="info_section long_section">
+
+    <div class="container">
+      <div class="contact_nav">
+        <a href="">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <span>
+            Call : +234-803-422-5541
+          </span>
+        </a>
+        <a href="">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <span>
+            Email : kidscon@gmail.com
+          </span>
+        </a>
+
+      </div>
+
+      <div class="info_top ">
+        <div class="row ">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="info_links">
+              <h4>
+                QUICK LINKS
+              </h4>
+              <div class="info_links_menu">
+                <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="" href="gallery.html">Gallery</a>
+                <a class="" href="team.html"> Our Team</a>
+                <a class="" href="contact.html">Get Involved</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info_form">
+
+              <div class="social_box">
+                <a href="">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
-                <p>Every Child Matters</p>
+                <a href="">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
             </div>
-            <div class="footer_4">
-
-                <ul class="footer_socials">
-                    <li><a href="https://wwww.facebook.com/#/"><i class="uil uil-facebook-f"></i></a></li>
-                    <li><a href="https://www.twitter.com/#"><i class="uil uil-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/#"><i class="uil uil-linkedin-alt"></i></a>
-                    <li><a href="#"><i class="uil uil-instagram-alt"></i></a></li>
-                    </li>
-                </ul>
-            </div>
-
+          </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <!-- end info_section -->
 
 
-        <div class="footer_copywright">
-            <small>Copywright &copy; Kidscon 2023. Designed by <a href="www.gigsdev.com"> Gigsdev Inc.</a></small>
-        </div>
-    </footer>
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://www.gigsdev.com">Gigsdev</a>
+
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
 
 
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
 
-    <script src="./main.js" async defer></script>
 </body>
 
 </html>
