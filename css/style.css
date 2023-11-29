@@ -491,103 +491,6 @@ a:focus {
   color: #6bb7be;
 }
 
-/*=================CONTACT SCTION===================*/
-
-.contact_section {
-  position: relative;
-  background-color: #3b82f6;
-  padding-top: 75px;
-  padding-bottom: 75px;
-  border-radius: 10px;
-  height: 140vh;
-}
-
-.contact_section .heading_container {
-  margin-bottom: 25px;
-
-}
-
-.contact_section .heading_container h2 {
-  text-transform: capitalize;
-  color: #f7fafa;
-
-}
-
-.contact_section .form_container input {
-  width: 100%;
-  border: none;
-  height: 50px;
-  margin-bottom: 25px;
-  padding-left: 15px;
-  outline: none;
-  color: #101010;
-  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.05);
-  border-radius: 5px;
-}
-
-.contact_section .form_container input::-webkit-input-placeholder {
-  color: #333;
-}
-
-.contact_section .form_container input:-ms-input-placeholder {
-  color: #333;
-}
-
-.contact_section .form_container input::-ms-input-placeholder {
-  color: #333;
-}
-
-.contact_section .form_container input::placeholder {
-  color: #333;
-}
-
-.contact_section .form_container input.message-box {
-  height: 120px;
-}
-
-.contact_section .form_container button {
-  border: none;
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 12px 55px;
-  background-color: white;
-  color: #3b82f6;
-  border-radius: 0px;
-  border: 1px solid #6bb7be;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  border-radius: 5px;
-}
-
-.contact_section .form_container button:hover {
-  background-color: transparent;
-  color: white;
-}
-
-.contact_section .map_container {
-  height: 500px;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  padding: 0;
-}
-
-.contact_section .map_container .map {
-  height: 100%;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.contact_section .map_container .map #googleMap {
-  height: 100%;
-}
-
 /* footer section*/
 .info_section {
   background-color: #3b82f6;
@@ -769,7 +672,6 @@ a:focus {
   border-color: #213a8f;
 }
 
-
 /*===========================GALLERY SECTION STARTS======================*/
 .carousel-inner {
   margin: 1rem;
@@ -777,7 +679,6 @@ a:focus {
 }
 
 /*===========================GALLERY SECTION ENDS======================*/
-
 .footer_section {
   position: relative;
   text-align: center;
