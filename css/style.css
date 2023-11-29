@@ -770,6 +770,14 @@ a:focus {
 }
 
 
+/*===========================GALLERY SECTION STARTS======================*/
+.carousel-inner {
+  margin: 1rem;
+  width: 91%;
+}
+
+/*===========================GALLERY SECTION ENDS======================*/
+
 .footer_section {
   position: relative;
   text-align: center;
