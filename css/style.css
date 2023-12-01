@@ -540,7 +540,7 @@ a:focus {
 }
 
 .info_section .contact_nav a:hover {
-  color: #028f4d;
+  color: #f47502;
 }
 
 .info_section .info_top {
@@ -569,7 +569,7 @@ a:focus {
 
 .info_section .info_links .info_links_menu a:hover,
 .info_section .info_links .info_links_menu a.active {
-  color: #028f4d;
+  color: #f47502;
 }
 
 .info_section .info_post .post_box {
