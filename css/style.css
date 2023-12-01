@@ -282,7 +282,7 @@ a:focus {
 
 .slider_section .detail-box .btn-box .btn1:hover {
   background-color: transparent;
-  color: #028f4d;
+  color: rgb(143, 127, 2)
 }
 
 
@@ -540,7 +540,7 @@ a:focus {
 }
 
 .info_section .contact_nav a:hover {
-  color: #213a8f;
+  color: #028f4d;
 }
 
 .info_section .info_top {
@@ -569,7 +569,7 @@ a:focus {
 
 .info_section .info_links .info_links_menu a:hover,
 .info_section .info_links .info_links_menu a.active {
-  color: #213a8f;
+  color: #028f4d;
 }
 
 .info_section .info_post .post_box {
@@ -675,7 +675,7 @@ a:focus {
 
 .info_section .info_form .social_box a:hover {
   color: white;
-  border-color: #213a8f;
+  border-color: #028f4d;
 }
 
 /*===========================GALLERY SECTION STARTS======================*/
