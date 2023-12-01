@@ -93,7 +93,7 @@ body {
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 3px 15px;
   margin: 10px 15px;
-  color: #3b82f6;
+  color: #028f4d;
   text-align: center;
   text-transform: capitalize;
 }
@@ -126,7 +126,7 @@ a:focus {
 .navbar-brand span {
   font-size: 24px;
   font-weight: 700;
-  color: #3b82f6;
+  color: #028f4d;
   text-transform: capitalize;
 }
 
@@ -167,7 +167,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #3b82f6;
+  background-color: #028f4d;
   border-radius: 15px;
   top: -10px;
   -webkit-transition: all 0.3s;
@@ -205,7 +205,7 @@ a:focus {
 }
 
 .quote_btn-container a {
-  color: #3b82f6;
+  color: #028f4d;
   margin-right: 25px;
   text-transform: uppercase;
 }
@@ -272,17 +272,17 @@ a:focus {
 .slider_section .detail-box .btn-box .btn1 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #3b82f6;
+  background-color: #028f4d;
   color: #ffffff;
   border-radius: 10px;
-  border: 1px solid #3b82f6;
+  border: 1px solid #028f4d;
   -webkit-transition: all .2s;
   transition: all .2s;
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
   background-color: transparent;
-  color: #3b82f6;
+  color: #028f4d;
 }
 
 
@@ -341,7 +341,7 @@ a:focus {
   text-align: center;
   font-weight: 600;
   font-size: 1.5rem;
-  color: #3b82f6;
+  color: #028f4d;
 
 }
 
@@ -351,7 +351,7 @@ a:focus {
 }
 
 .furniture_section .box .detail-box span {
-  color: #3b82f6;
+  color: #028f4d;
 }
 
 
@@ -499,7 +499,7 @@ a:focus {
 
 /* footer section*/
 .info_section {
-  background-color: #3b82f6;
+  background-color: #028f4d;
   color: #ffffff;
   padding-top: 45px;
   padding-bottom: 45px;
@@ -632,9 +632,9 @@ a:focus {
   display: inline-block;
   padding: 10px 45px;
   background-color: white;
-  color: #3b82f6;
+  color: #028f4d;
   border-radius: 0px;
-  border: 1px solid #3b82f6;
+  border: 1px solid #028f4d;
   -webkit-transition: all .2s;
   transition: all .2s;
   border-radius: 10px;
